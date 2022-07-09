@@ -1,0 +1,30 @@
+/* ---------------
+HEADER 
+ --------------- */
+
+.header {
+  width: 550px;
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  height: 25px;
+  margin-right: 10px;
+}
+.logo > span {
+  color: white;
+  font-family: "Karla";
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  font-weight: 700;
+  font-size: 20px;
+}

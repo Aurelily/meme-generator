@@ -1,0 +1,65 @@
+/* ---------------
+MEME FORM 
+ --------------- */
+.meme-form {
+  width: 477px;
+}
+.form {
+  padding-top: 20px;
+}
+.form > input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 4px;
+}
+
+.form > button {
+  width: 477px;
+  height: 40px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  color: white;
+  font-family: "Karla";
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  font-size: 16px;
+  border: none;
+}
+
+.meme {
+  position: relative;
+  margin: 20px 0 20px 0;
+}
+
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
+}
+.meme-image {
+  max-width: 100%;
+  border-radius: 3px;
+}
